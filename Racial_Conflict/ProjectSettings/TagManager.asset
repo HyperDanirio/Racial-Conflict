@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Soldier_Team_1
+  - Base_2
+  - Base_1
   layers:
   - Default
   - TransparentFX

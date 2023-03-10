@@ -14,4 +14,12 @@ public class T1_Movement_Melee : MonoBehaviour
     {
         transform.Translate(Vector2.right * speed * Time.deltaTime);
     }
+
+void OnCollisionEnter2D(Collision2D collision)
+{
+    if (collision.gameObject.CompareTag("Enemy"))
+    {
+        Destroy(gameObject);
+    }
+}
 }
