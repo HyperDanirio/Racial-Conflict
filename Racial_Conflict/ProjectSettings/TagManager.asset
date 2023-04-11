@@ -8,6 +8,7 @@ TagManager:
   - Base_2
   - Base_1
   - Function Button
+  - Spawn_Button_T1
   layers:
   - Default
   - TransparentFX
