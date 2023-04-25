@@ -9,6 +9,7 @@ TagManager:
   - Base_1
   - Function Button
   - Spawn_Button_T1
+  - Soldier_Team_2
   layers:
   - Default
   - TransparentFX
