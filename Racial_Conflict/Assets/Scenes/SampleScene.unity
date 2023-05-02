@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 68744707}
   - component: {fileID: 68744706}
   - component: {fileID: 68744705}
+  - component: {fileID: 68744708}
   m_Layer: 5
   m_Name: RHeavy_Spawn_btn_T1
   m_TagString: Spawn_Button_T1
@@ -246,6 +247,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 68744703}
   m_CullTransparentMesh: 1
+--- !u!225 &68744708
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68744703}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &100160794
 GameObject:
   m_ObjectHideFlags: 0
@@ -539,6 +552,7 @@ GameObject:
   - component: {fileID: 206100306}
   - component: {fileID: 206100305}
   - component: {fileID: 206100304}
+  - component: {fileID: 206100307}
   m_Layer: 5
   m_Name: Heavy_Spawn_btn_T1
   m_TagString: Spawn_Button_T1
@@ -650,6 +664,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 206100302}
   m_CullTransparentMesh: 1
+--- !u!225 &206100307
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206100302}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &221529101
 GameObject:
   m_ObjectHideFlags: 0
@@ -662,6 +688,7 @@ GameObject:
   - component: {fileID: 221529105}
   - component: {fileID: 221529104}
   - component: {fileID: 221529103}
+  - component: {fileID: 221529106}
   m_Layer: 5
   m_Name: Heavy_Spawn_btn_T2
   m_TagString: Spawn_Button_T1
@@ -773,6 +800,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 221529101}
   m_CullTransparentMesh: 1
+--- !u!225 &221529106
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221529101}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &224482726
 GameObject:
   m_ObjectHideFlags: 0
@@ -1067,6 +1106,7 @@ GameObject:
   - component: {fileID: 244716997}
   - component: {fileID: 244716996}
   - component: {fileID: 244716995}
+  - component: {fileID: 244716998}
   m_Layer: 5
   m_Name: Ranged_Spawn_btn_T2
   m_TagString: Spawn_Button_T1
@@ -1178,6 +1218,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244716993}
   m_CullTransparentMesh: 1
+--- !u!225 &244716998
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244716993}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &247142053
 GameObject:
   m_ObjectHideFlags: 0
@@ -1484,6 +1536,7 @@ GameObject:
   - component: {fileID: 881438280}
   - component: {fileID: 881438279}
   - component: {fileID: 881438278}
+  - component: {fileID: 881438281}
   m_Layer: 5
   m_Name: Melee_Spawn_btn_T1
   m_TagString: Spawn_Button_T1
@@ -1595,6 +1648,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 881438276}
   m_CullTransparentMesh: 1
+--- !u!225 &881438281
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881438276}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &881881372
 GameObject:
   m_ObjectHideFlags: 0
@@ -2419,6 +2484,7 @@ GameObject:
   - component: {fileID: 1284934774}
   - component: {fileID: 1284934773}
   - component: {fileID: 1284934772}
+  - component: {fileID: 1284934775}
   m_Layer: 5
   m_Name: Ranged_Spawn_btn_T1
   m_TagString: Spawn_Button_T1
@@ -2530,6 +2596,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1284934770}
   m_CullTransparentMesh: 1
+--- !u!225 &1284934775
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284934770}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1345307872
 GameObject:
   m_ObjectHideFlags: 0
@@ -2935,6 +3013,7 @@ GameObject:
   - component: {fileID: 1484461532}
   - component: {fileID: 1484461531}
   - component: {fileID: 1484461530}
+  - component: {fileID: 1484461533}
   m_Layer: 5
   m_Name: RHeavy_Spawn_btn_T2
   m_TagString: Spawn_Button_T1
@@ -3046,6 +3125,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1484461528}
   m_CullTransparentMesh: 1
+--- !u!225 &1484461533
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484461528}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1536073681
 GameObject:
   m_ObjectHideFlags: 0
@@ -3305,6 +3396,7 @@ GameObject:
   - component: {fileID: 1585569323}
   - component: {fileID: 1585569322}
   - component: {fileID: 1585569321}
+  - component: {fileID: 1585569324}
   m_Layer: 5
   m_Name: Melee_Spawn_btn_T2
   m_TagString: Spawn_Button_T1
@@ -3416,6 +3508,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1585569319}
   m_CullTransparentMesh: 1
+--- !u!225 &1585569324
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585569319}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1617528113
 GameObject:
   m_ObjectHideFlags: 0
