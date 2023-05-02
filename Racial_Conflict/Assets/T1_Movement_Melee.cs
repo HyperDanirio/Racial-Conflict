@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class T1_Movement_Melee : MonoBehaviour
 {
-    public float speed;
+    public float speed = 0.5f;
     public float attackRange = 2f;
-    public float attackDelay = 1f;
+    public float attackDelay = 2f;
     public int damage = 10;
 
     private GameObject enemySoldier;
@@ -23,13 +23,11 @@ public class T1_Movement_Melee : MonoBehaviour
 
         if (distance <= attackRange && !attacking)
         {
-            // Stop moving when enemy is in attack range
             StopMoving();
             StartCoroutine(Attack());
         }
         else
         {
-            // Move in one direction if enemy is not in attack range
             MoveRight();
         }
     }
@@ -45,7 +43,6 @@ public class T1_Movement_Melee : MonoBehaviour
         {
             Debug.Log("Player took " + damage + " damage!");
         }
-
         attacking = false;
     }
 
@@ -56,7 +53,6 @@ public class T1_Movement_Melee : MonoBehaviour
 
     void StopMoving()
     {
-        // Stop moving by setting the speed to 0
         speed = 0;
     }
 }

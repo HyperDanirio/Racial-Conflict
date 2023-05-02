@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 487927348}
   - component: {fileID: 487927347}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: Soldier 1
   m_TagString: Soldier_Team_1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -150,14 +150,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 487927346}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72baf3671a62f374586af26a13e32ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.5
-  attackRange: 0.5
-  attackDelay: 1
+  attackRange: 2
+  attackDelay: 2
   damage: 10
 --- !u!114 &487927348
 MonoBehaviour:
@@ -175,6 +175,10 @@ MonoBehaviour:
   max_object_to_spawn: 1
   spawn_location_x: -7
   spawn_location_y: 0
+  speed: 0.5
+  attackRange: 2
+  attackDelay: 2
+  damage: 10
 --- !u!61 &487927349
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -261,7 +265,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 487927346}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.01, y: -8.68, z: 0}
+  m_LocalPosition: {x: -6.93, y: -3.32, z: 0}
   m_LocalScale: {x: 0.7596, y: 0.8397, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -618,7 +622,7 @@ GameObject:
   - component: {fileID: 1680016071}
   - component: {fileID: 1680016070}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Soldier 2
   m_TagString: Soldier_Team_2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -657,13 +661,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1680016068}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01ab74e44c1f14bfe9b6df993840f126, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -0.5
-  attackRange: 0.5
+  speed: 0.5
+  attackRange: 2
   attackDelay: 1
   damage: 10
 --- !u!114 &1680016071
@@ -682,6 +686,10 @@ MonoBehaviour:
   max_object_to_spawn: 1
   spawn_location_x: 7
   spawn_location_y: 0
+  speed: 0.5
+  attackRange: 2
+  attackDelay: 2
+  damage: 10
 --- !u!212 &1680016072
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -742,7 +750,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1680016068}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.28, y: -8.36, z: 0}
+  m_LocalPosition: {x: 6.69, y: -3.45, z: 0}
   m_LocalScale: {x: 0.78539526, y: -0.7158123, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

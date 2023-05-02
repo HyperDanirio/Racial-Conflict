@@ -10,6 +10,8 @@ TagManager:
   - Function Button
   - Spawn_Button_T1
   - Soldier_Team_2
+  - Melee2
+  - Melee1
   layers:
   - Default
   - TransparentFX
