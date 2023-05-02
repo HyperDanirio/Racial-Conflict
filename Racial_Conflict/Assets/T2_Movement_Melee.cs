@@ -51,7 +51,7 @@ public class T2_Movement_Melee : MonoBehaviour
 
     void MoveRight()
     {
-        transform.Translate(Vector2.right * speed * Time.deltaTime);
+        transform.Translate(Vector2.left * speed * Time.deltaTime);
     }
 
     void StopMoving()

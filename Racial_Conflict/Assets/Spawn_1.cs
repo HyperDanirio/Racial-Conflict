@@ -22,7 +22,7 @@ public class Spawn_1 : MonoBehaviour
     public void SpawnObject()
 {
     if(object_to_spawn<max_object_to_spawn){
-    Vector3 spawnPosition = new Vector3(spawn_location_x, spawn_location_y, 0); 
+    Vector3 spawnPosition = new Vector3(spawn_location_x, spawn_location_y, -1); 
     Instantiate(objectToSpawn, spawnPosition, Quaternion.identity);
     object_to_spawn++;
 
